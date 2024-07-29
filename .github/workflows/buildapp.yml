@@ -105,7 +105,7 @@ jobs:
       - name: Prepare YouTube iPA
         id: prepare_youtube
         run: |
-          wget "$YOUTUBE_URL" --no-verbose -O main/YouTube.ipa
+          wget "https://27man-my.sharepoint.com/personal/qn____27man_onmicrosoft_com/_layouts/15/download.aspx?UniqueId=bf5149e2-bd0e-41de-9a67-26749be507d0" --no-verbose -O main/YouTube.ipa
           cd ${{ github.workspace }}/main
           mv YouTube.ipa YouTube.zip
           unzip -q YouTube.zip
